@@ -2,10 +2,10 @@
 %define plugin	ttxtsubs
 %define name	vdr-plugin-%plugin
 %define version	0.0.5
-%define edition	pme
+%define edition	kne
 %define rel	1
 
-%define release %mkrel 9.%edition.%rel
+%define release %mkrel 10.%edition.%rel
 
 Summary:	VDR plugin: Teletext subtitles
 Name:		%name
@@ -15,17 +15,17 @@ Group:		Video
 License:	GPL
 URL:		ftp://ftp.nada.kth.se/pub/home/ragge/vdr/
 Source:		ftp://ftp.nada.kth.se/pub/home/ragge/vdr/vdr-%plugin-%version.tar.bz2
-Patch1:		http://www.saunalahti.fi/~rahrenbe/vdr/patches/vdr-ttxtsubs-0.0.5-pippurimylly-edition.diff.gz
+Patch1:		http://www.saunalahti.fi/~rahrenbe/vdr/patches/vdr-ttxtsubs-0.0.5-kermanekka-edition.diff.gz
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	vdr-devel >= 1.4.1-6
 Requires:	vdr-abi = %vdr_abi
 
 %description
-This plugin implements displaying, recording and replaying
-teletext based subtitles using the on screen display.
+This plugin implements displaying, recording and replaying teletext
+based subtitles using the on screen display.
 
-This is the pippurimylly edition, currently maintained by
-Rolf Ahrenberg.
+This is the kermanekka edition, currently maintained by Rolf
+Ahrenberg.
 
 %prep
 %setup -q -n %plugin-%version
