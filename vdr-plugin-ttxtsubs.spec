@@ -16,7 +16,6 @@ License:	GPL
 URL:		ftp://ftp.nada.kth.se/pub/home/ragge/vdr/
 Source:		ftp://ftp.nada.kth.se/pub/home/ragge/vdr/vdr-%plugin-%version.tar.bz2
 Patch1:		http://www.saunalahti.fi/~rahrenbe/vdr/patches/vdr-ttxtsubs-0.0.5-kermanekka-edition.diff.gz
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 BuildRequires:	vdr-devel >= 1.4.1-6
 Requires:	vdr-abi = %vdr_abi
 
