@@ -3,7 +3,7 @@
 %define name	vdr-plugin-%plugin
 %define version	0.0.5
 %define edition	kne
-%define rel	5
+%define rel	6
 
 %define release %mkrel 10.%edition.%rel
 
