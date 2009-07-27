@@ -4,7 +4,7 @@
 %define version	0.0.5
 %define edition	rre
 %define edlong	raastinrauta
-%define rel	3
+%define rel	4
 
 %define release %mkrel 10.%edition.%rel
 
