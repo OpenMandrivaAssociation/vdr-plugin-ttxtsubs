@@ -1,2 +1,4 @@
+removed_sources:
+  vdr-ttxtsubs-0.0.5.tar.bz2: 024574caf95164275165168c7781ca8fbecea404
 sources:
-  "vdr-ttxtsubs-0.0.5.tar.bz2": 024574caf95164275165168c7781ca8fbecea404
+  vdr-ttxtsubs-0.3.0.tar.gz: 75dfe4aea49bcd02a124881c48349a4f4ef0b3ff
