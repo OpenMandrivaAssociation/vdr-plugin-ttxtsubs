@@ -7,7 +7,7 @@ Version:	0.3.0
 Release:	1
 Group:		Video
 License:	GPLv2+
-URL:		http://projects.vdr-developer.org/projects/plg-ttxtsubs
+URL:		https://projects.vdr-developer.org/projects/plg-ttxtsubs
 Source:		vdr-%plugin-%{version}.tar.gz
 BuildRequires:	vdr-devel >= 1.7.6
 Requires:	vdr-abi = %vdr_abi
